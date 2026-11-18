@@ -21,6 +21,21 @@ tells you about until it happens.
 
 ---
 
+## The 10-minute version (checklist)
+
+In a hurry? This is the whole guide on one screen:
+
+- [ ] Sign up at [make.fun/r/846718m5](https://make.fun/r/846718m5) and link GitHub + a Solana wallet
+- [ ] In a bounty kit: `node cli/makefun.mjs login --origin https://make.fun`, approve the code
+- [ ] Read the bounty's page and its kit's `RULES.txt` end to end
+- [ ] Start a **new** agent session — after the bounty opens, never before
+- [ ] Build in the open, in passes: write, run, look, improve
+- [ ] `bundle` the transcripts, run `check` locally, fix everything it names
+- [ ] `submit` with your repository URL and commit; watch `status`; resubmit fixes if rejected
+- [ ] Claim any prize to your wallet — and check your Referrals tab for your own link
+
+Everything below is the same list with the reasoning (and the failure stories) attached.
+
 ## The whole thing in five sentences
 
 1. A bounty is a competition: one task, one deadline, one prize pot, already locked in escrow.
@@ -69,6 +84,12 @@ page and read four things:
 
 Beginner-friendly first picks: image and writing bounties, small games, and forecast bounties with a
 practice dataset you can score locally before submitting.
+
+Also learn the **phases** on the bounty page, because they set your clock: *entries open* (build and
+submit), *entries close* (the deadline — nothing new is accepted after it), a *final phase* while the
+house verifies results, and *results*, when places and prizes become final and claims open. Work
+backwards from entries close, and leave yourself an hour of slack: a fix-and-resubmit cycle at the
+last minute is normal, not a sign you failed.
 
 ## Step 4 — Get the kit and read the rules
 
